@@ -1,0 +1,19 @@
+# set version of docker-compose
+# set services
+# set networks
+# set volumes
+# set configs
+# set secrets
+
+version: "3"
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: pass12
+      POSTGRES_USER: user12
+      POSTGRES_DB: db12
+  app:
+    image: my-node-app
+    ports:
+      - 1377:5000

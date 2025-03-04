@@ -1,8 +1,11 @@
 ###
-GET http://localhost:5000/
+GET http://localhost:1377/setup-table
 
 ###
-POST http://localhost:5000/
+GET http://localhost:1377/
+
+###
+POST http://localhost:1377/
 Content-Type: application/json
 
 {
